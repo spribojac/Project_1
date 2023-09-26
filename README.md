@@ -101,6 +101,94 @@ Generosity, measuring charitable behaviour and giving, exhibits a more mixed rel
 In summary, this analysis provides valuable insights into societal well-being from 2015 to 2020. Variables such as GDP per Capita and social support consistently exert positive influences on happiness, while trust in government corruption and generosity reveal more nuanced relationships. The relationships between these variables will be explored in the remainder of this report.
 
 ------------------------------------------------------------------------------------------------------
+## How does the GDP per capita affect Happiness and the different attributes within the data set
+
+
+### Top 10 GDP per Capita Countries
+![Alt text](https://github.com/spribojac/Project_1/blob/main/images/TOP_10_GDP.png)
+
+Trends in Mean GDP per Capita: The mean GDP per capita for the top 10 
+countries seems to fluctuate over the years. It increased from 2015 to 
+2016, then had a slight decrease in 2017, increased again in 2018, 
+remained relatively stable in 2019, and decreased in 2020. These changes
+can indicate economic growth or contraction in these countries over time.
+Standard Deviation: The standard deviation represents the dispersion of 
+data points around the mean. A higher standard deviation suggests 
+greater variability in GDP per capita among the top 10 countries. In this 
+case, the standard deviation is relatively low for most years, indicating 
+that the GDP per capita values are clustered around the mean, indicating 
+relatively stable and similar economic conditions among these countries
+Minimum and Maximum Values: The minimum and maximum values show 
+the range of GDP per capita in the top 10 countries for each year. These 
+values can highlight the most and least prosperous countries in the top 
+10. For example, in 2018, there is a relatively high maximum value, 
+indicating that one or more countries in the top 10 had a significantly 
+higher GDP per capita compared to others.
+
+### Bottom 10 GDP per Capita Countries 
+![Alt text](https://github.com/spribojac/Project_1/blob/main/images/Bottom_10_GDP.png)
+
+Consistency in Low GDP: It's evident that the countries in the bottom 10 
+consistently have very low GDP per capita across all years. This suggests 
+ongoing economic challenges in these countries, which could include 
+poverty, limited access to resources, and reduced standards of living.
+Variability in Happiness Score: Despite having low GDP per capita, there is
+some variability in the "Happiness Score" among these countries. This 
+indicates that factors other than economic wealth, such as social support, 
+life expectancy, freedom, trust in government, and generosity, play a 
+significant role in determining the overall well-being and happiness of a 
+population.
+
+Persistent Issues: Some countries, such as Congo (Kinshasa), Burundi, and
+Niger, appear in the bottom 10 consistently over multiple years. This 
+suggests that these countries face ongoing challenges in improving their 
+economic conditions and overall well-being.
+Social Support and Health: It's worth noting that in some years, despite 
+low GDP per capita, certain countries have relatively higher scores in 
+"Social Support" and "Life Expectancy/Health." This indicates that social 
+and health-related factors may have a more significant impact on 
+happiness and well-being in these contexts.
+
+Trust and Corruption: Trust in government and levels of government 
+corruption (measured as "Trust (government corruption)") also vary 
+among these countries. Some countries have very low levels of trust in 
+government, which can affect their overall happiness and stability.
+Generosity: "Generosity" is another variable that varies among these 
+countries. This suggests differences in social and cultural norms related to
+generosity and community support
+
+### Scatter Plots of Capita vs Happiness/Attributes 
+
+![GDP vs Happiness](https://github.com/spribojac/Project_1/blob/main/images/GDP_REGRESSION.png)
+![GDP vs Freedom](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_FREEDOM.png)
+![GDP vs Gen](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_GENEROSITY.png)
+![GDP vs Life Expectancy](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_LIFE%20EXPECTANCY.png)
+![GDP vs Social](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_SOCIAL.png)
+
+These scatter plots visually depict the associations between GDP and both
+happiness and various attributes. Notably, the correlation between GDP 
+and the Happiness score was a robust 0.79, indicating a strong and 
+positive linear relationship between these two variables. Similarly, positive
+correlations were observed between GDP and other attributes such as 
+social support, life expectancy, and freedom. However, it's worth noting 
+that the correlation between generosity and GDP was notably weak, 
+implying a limited connection between these two variables.
+
+### Box plot and Heat Map Analysis 
+
+![Heat Map](https://github.com/spribojac/Project_1/blob/main/images/Heat_map.png)
+![Box Plot](https://github.com/spribojac/Project_1/blob/main/images/boxplot.png)
+
+The box plots vividly demonstrate a notable disparity in Happiness scores,
+with lower-ranked GDP countries exhibiting significantly greater variance. 
+In contrast, countries with higher GDP per capita displayed considerably 
+less variance, signifying greater stability. These findings underscore the 
+substantial variability in happiness scores among countries with lower per 
+capita GDP, juxtaposed with the comparatively stable happiness levels 
+observed in higher GDP countries.The heat map further consolidates the 
+prior findings and shows GDP per capita has positive correlation with 
+majority of the attributes, excluding generosity and government 
+corruption.
 
 # Conclusion and Final Thoughts - COVID Report
 
