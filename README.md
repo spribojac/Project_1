@@ -190,9 +190,49 @@ prior findings and shows GDP per capita has positive correlation with
 majority of the attributes, excluding generosity and government 
 corruption.
 
-# Conclusion and Final Thoughts - COVID Report
+# Correlation between social support\Life Expectancy\ Generosity 
 
-In this analysis, we explored the intricate relationship between various socio-economic factors and their potential impact on handling the COVID-19 pandemic. Let's recap our key findings:
+In this analysis, we investigated the trends in Happiness Scores among various regions and countries from 2015 to 2020. 
+Our findings indicate that there is a consistent pattern with minor fluctuations over the years. 
+Notably, North America, ANZ, and Western Europe emerged as top-performing regions in terms of Happiness Scores, which were strongly associated with high GDP and social support.
+
+![regional bar plot](https://github.com/spribojac/Project_1/blob/main/images/2020_Regional_Bar_Plot.png)
+
+We presented our findings through regional bar plots and heatmap analyses to visually represent the data.
+
+![Heat Map](https://github.com/spribojac/Project_1/blob/main/images/Heatmap_2020.png)
+
+### Correlation Analysis:
+
+Our correlation analysis revealed significant relationships between different variables. Social support and life expectancy/health exhibited a robust positive correlation not only with each other but also with most other attributes. However, generosity displayed weak or negligible correlations with other factors.
+Specifically, we found that:
+•    Social support and happiness scores were strongly correlated with a coefficient of 0.7.
+•    Social support and life expectancy/health exhibited a strong correlation with a coefficient of 0.5.
+•    Social support and freedom displayed a solid correlation with a coefficient of 0.4.
+•    Social support and generosity demonstrated a weak correlation with a coefficient of 0.1.
+•    Happiness scores and life expectancy/health displayed a robust correlation with a coefficient of 0.7.
+•    Life expectancy/health and freedom also exhibited a strong correlation with a coefficient of 0.4.
+•    Life expectancy/health and generosity had a very weak correlation with a coefficient of 0.1.
+
+### Scatter Plot and Regression Analysis 
+
+Furthermore, we conducted scatter plots and regression analyses to delve deeper into the relationships between specific variables. Notably, we found:
+
+![Social Support](https://github.com/spribojac/Project_1/blob/main/images/Happiness%20vs%20Sosial%20support.png)
+![Life Expectancy](https://github.com/spribojac/Project_1/blob/main/images/Happiness%20vs%20Life%20expectancy.png)
+![Generosity](https://github.com/spribojac/Project_1/blob/main/images/Happiness%20vs%20Generosity.png)
+
+
+•    A strong positive correlation (coefficient of 0.75) between social support and happiness scores.
+•    A strong positive correlation (coefficient of 0.78) between life expectancy/health and happiness scores.
+•    A weak correlation (coefficient of 0.14) between generosity and happiness scores.
+
+Conclusion:
+In summary, our analysis highlights robust positive correlations between Happiness Scores, life expectancy/health, and social support. 
+These findings suggest that countries with higher levels of economic prosperity, social support systems, and healthier life expectancies tend to score higher on the Happiness Index. 
+However, it's essential to acknowledge that further research is necessary to comprehensively grasp the underlying factors driving these correlations.
+
+Conclusion:In this analysis, we explored the intricate relationship between various socio-economic factors and their potential impact on handling the COVID-19 pandemic. Let's recap our key findings:
 
 ## GDP and Happiness:
 
