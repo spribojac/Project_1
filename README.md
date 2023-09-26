@@ -25,22 +25,22 @@ The 2020 file needed to be processed seperately to drop additional columns to en
 # Happiness Scores from 2015 to 2020
 ## Global Visualisation
 
-### Global Happiness in 2015
+### Global Happiness in 2015 (Fig 1)
 ![globe_happiness_score_map_2015](https://github.com/spribojac/Project_1/assets/65559564/0403d28a-341f-4836-9104-e6421eece197)
 
-### Global Happiness in 2016
+### Global Happiness in 2016 (Fig 2)
 ![globe_happiness_score_map_2016](https://github.com/spribojac/Project_1/assets/65559564/29af777c-dc7f-4490-9838-f2210000974d)
 
-### Global Happiness in 2017
+### Global Happiness in 2017 (Fig 3)
 ![globe_happiness_score_map_2017](https://github.com/spribojac/Project_1/assets/65559564/83877c6e-6a7a-4398-987a-f3568f57164e)
 
-### Global Happiness in 2018
+### Global Happiness in 2018 (Fig 4)
 ![globe_happiness_score_map_2018](https://github.com/spribojac/Project_1/assets/65559564/bce6619f-160e-439a-a463-186b11f5e45d)
 
-### Global Happiness in 2019
+### Global Happiness in 2019 (Fig 5)
 ![globe_happiness_score_map_2019](https://github.com/spribojac/Project_1/assets/65559564/351ce401-6416-46d0-866c-adbca3702900)
 
-### Global Happiness in 2020
+### Global Happiness in 2020 (Fig 6)
 ![globe_happiness_score_map_2020](https://github.com/spribojac/Project_1/assets/65559564/0a6c0557-c4d9-4fbb-bac5-222fd707c7f0)
 
 Analyzing happiness scores regionally and across continents over the years reveals interesting trends. The color spectrum, ranging from green (indicating higher happiness) to red (representing lower happiness), highlights notable patterns. 
@@ -52,15 +52,15 @@ The presence of red and orange shades in the African continent, particularly in 
 South Asia generally scores lower than its Southeast Asian counterparts, while Eastern Asia maintains a steady average happiness score of around 5, which may reflect the influence of cultural and societal norms.
 In Europe, Western European countries consistently score high in happiness, thanks to robust economies and social safety nets. Central and Eastern European nations have made progress since the end of the Cold War, though some, like Ukraine, Bulgaria, and Georgia, still report scores averaging between 4 and 5.
 
-## Mean Happiness Scores from 2015 to 2020
+## Mean Happiness Scores from 2015 to 2020 (Fig 7)
 ![mean_happiness_score_all_years](https://github.com/spribojac/Project_1/assets/65559564/07d193e2-739e-470d-a81e-fb26f29b9abd)
 
-### Mean Happiness Score with 95% confidence intervals
+### Mean Happiness Score with 95% confidence intervals (Fig 8)
 ![mean_change_Happiness Score](https://github.com/spribojac/Project_1/assets/65559564/e7796282-af9a-42b3-b8b3-68ba7bfa1ff0)
 
-The most notable trend of the happiness score over 2015 to 2020 is it’s stability. Looking at the line graph above the mean Happiness Score has remained relatively stable over the years, with slight fluctuations, mainly in the years 2019-2020 where a very small increase in the Happiness score can be seen. The mean Happiness Score across these six years hovers around 5.38. 
+The most notable trend of the happiness score over 2015 to 2020 is it’s stability, hovering around 5.38m, with slight fluctuations, mainly in the years 2019-2020 where a very small increase in the Happiness score can be seen (Fig 7). . The confidence intervals shown in Fig 8 suggest that the variability in the mean happiness scores was not significant.
 
-The lowest observed Happiness Score during this period was 2.5669, emphasizing moments of profound unhappiness, while the highest score reached an impressive 7.8087, both in the year 2020, underscoring the capacity for exceptional well-being.
+The lowest observed Happiness Score during this period was 2.5669, emphasizing moments of profound unhappiness, while the highest score reached an impressive 7.8087, both in the year 2020, underscoring the capacity for exceptional well-being ad variability in the dataset.
 
 This stability emphasizes the resilience of overall happiness and the need for a holistic approach to improving well-being that goes beyond single indicators.
 
@@ -223,6 +223,33 @@ The correlation values provide insights into how these factors might influence t
 This analysis offers a comprehensive look at the interplay between the COVID-19 pandemic and happiness levels across different countries. By visualizing COVID-19 death progression, identifying critical periods, and exploring correlations with various factors, we aim to contribute to a better understanding of the pandemic's broader impact on societies.
 
 Feel free to further explore the data and analysis in the accompanying Jupyter Notebook.
+
+## Limitations of the study
+The World Happiness Report data, like any dataset, has its limitations. Some of the key limitations include:
+
+**Subjectivity:** Happiness is a highly subjective and culturally influenced concept. Respondents' interpretations of happiness can vary significantly across cultures and individuals, making it challenging to standardize measurements.
+
+**Self-Reporting Bias:** The data relies on self-reported surveys, which are susceptible to response bias. Respondents may provide answers they believe are socially desirable or may not accurately assess their own well-being.
+
+**Cross-Cultural Differences:** Happiness is culturally and contextually dependent, and what constitutes happiness in one culture may not apply universally. This can lead to challenges in comparing happiness levels across different countries.
+
+**Limited Scope:** The report primarily focuses on a few key factors such as GDP per capita, social support, healthy life expectancy, freedom, generosity, and corruption. It may not capture the full spectrum of factors that influence happiness, such as cultural, environmental, or personal factors.
+
+**Data Collection Challenges:** Gathering data from diverse countries and cultures can be challenging. Some nations may have less reliable or comprehensive data collection systems, leading to potential data gaps.
+
+**Lack of Causality:** The report provides correlations between happiness and various factors but does not establish causation. It may not always be clear whether an increase in one variable directly leads to increased happiness.
+
+**Yearly Snapshot:** The report provides a snapshot of happiness for a specific year. It may not capture long-term trends or fluctuations in happiness over time. This is especially pertinent when comparing datasets pre and post COVID-19.
+
+**Political and Social Factors:** Political and social stability can significantly affect happiness, and these factors may not always be adequately accounted for in the data.
+
+**Data Manipulation:** In some cases, governments may manipulate data to present a more positive image of their country's happiness and well-being, potentially affecting the accuracy of the results.
+
+**Sample Size and Representativeness:** The representativeness of the survey samples and the sample sizes can vary across countries, which may affect the reliability and generalizability of the results.
+
+## Further areas of study
+1. Global Events and Happiness: Analyze how major global events, such as pandemics, economic crises, or natural disasters, impact happiness and resilience. For example, wars or including more datasets in the COVID-19 years.
+2. Cultural Variations in Happiness: Investigate how cultural norms and values influence the perception and pursuit of happiness across different societies.
 
 
 
