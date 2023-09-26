@@ -5,6 +5,8 @@ Data Analytics Bootcamp: Project 1
 1. [Outline](#outline)
 2. [Data Cleaning](#data_cleaning)
 3. [Happiness Scores from 2015 to 2020](Happiness_Scores_from_2015_to_2020)
+4. [Limitations](#limitations)
+5. [Further areas of study](#further_areas_of_study)
 
 # Outline
 The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
