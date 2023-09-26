@@ -53,3 +53,95 @@ Understanding these relationships is crucial for policymakers and public health 
 ---
 
 By analyzing these aspects, we gain valuable insights into the complexities of managing a global health crisis like COVID-19 and can develop more informed strategies for a healthier and happier society.
+
+##########################################################################################################################################################################################################
+
+# COVID19 Death / Happiness Report Data Analysis
+
+In this project, we perform an in-depth analysis of COVID-19 death data alongside happiness report data from different countries. Our goal is to explore potential relationships and insights between the COVID-19 pandemic's impact on countries and their citizens' reported happiness.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Data Import](#data-import)
+3. [Data Visualization](#data-visualization)
+4. [Correlation Analysis](#correlation-analysis)
+5. [Conclusion](#conclusion)
+
+---
+
+## Introduction
+
+The year 2020 brought unprecedented challenges to the world, primarily due to the COVID-19 pandemic. While the pandemic itself had a direct impact on public health, it also had indirect consequences on various aspects of society, including people's overall well-being and happiness. This analysis aims to shed light on the relationship between the severity of COVID-19 outbreaks in different countries and their respective happiness levels.
+
+---
+
+## Data Import 
+
+### COVID-19 Death Dataset
+
+We start by importing and preprocessing the COVID-19 death dataset. The dataset contains information about COVID-19 deaths in various countries and regions. We clean and aggregate the data to make it suitable for analysis.
+
+### Worldwide Happiness Report
+
+Next, we import the Worldwide Happiness Report, which includes happiness scores and various factors contributing to happiness, such as GDP per capita, social support, healthy life expectancy, and freedom to make life choices. We also clean and prepare this dataset for analysis.
+
+---
+
+## Data Visualization <a name="data-visualization"></a>
+
+### COVID-19 Death Progression in Specific Countries
+
+We begin our analysis by visualizing the progression of COVID-19 deaths in specific countries. The graph below illustrates the death toll over time for selected countries, offering insights into how the pandemic evolved in different regions.
+
+![COVID-19 Deaths](images/covid_time.png)
+
+### Rate of COVID-19 Death Curve
+
+To understand the rate of change in COVID-19 deaths, we present the death rate curve. This curve shows how quickly or slowly COVID-19 deaths increased in specific countries, allowing us to identify trends and critical periods.
+
+![Death Rate Curve](images/difference_time.png)
+
+### Maximum COVID-19 Death Rate
+
+We identify and list the maximum death rates observed for specific countries. This information provides a glimpse into the most challenging periods these countries faced during the pandemic.
+
+### Scatter Plot: Correlation between Covid19 Deaths and Happiness KPIs
+
+Moving beyond COVID-19 data, we explore the correlation between GDP per capita and happiness scores. The scatter plot below illustrates this relationship, highlighting how economic prosperity might influence people's happiness.
+
+![GDP vs Covid](images/gdp_covid.png)
+![Healthy Life vs Covid](images/healthy_life_covid.png)
+
+---
+
+The correlation values provide insights into how these factors might influence the severity of COVID-19 outbreaks in different countries.
+
+---
+
+## Conclusion
+
+This analysis offers a comprehensive look at the interplay between the COVID-19 pandemic and happiness levels across different countries. By visualizing COVID-19 death progression, identifying critical periods, and exploring correlations with various factors, we aim to contribute to a better understanding of the pandemic's broader impact on societies.
+
+Feel free to further explore the data and analysis in the accompanying Jupyter Notebook.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
