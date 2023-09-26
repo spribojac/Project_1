@@ -10,6 +10,14 @@ In this analysis, we explored the intricate relationship between various socio-e
 
 We found a significant association between a country's GDP and its reported happiness. Countries with higher GDP tend to have a more favorable happiness score.
 
+## GDP AND SOCIAL SUPPORT:
+
+WE found that there is no significant association between the GDP and Social Support .Countries with higher GDP tend to have a less Social Support.
+
+## Happiness Score and Generosity:
+
+WE found that there is no significant association between the Happiness Score  and Generosity .Countries with higher Happiness Score tend to have a less Generosity.
+
 ## Government Corruption Perception:
 
 Countries with a lower perception of government corruption were likely to have a more positive outlook on happiness, suggesting the importance of transparent and accountable governance.
