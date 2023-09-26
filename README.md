@@ -3,7 +3,8 @@ Data Analytics Bootcamp: Project 1
 
 ## Table of Contents
 1. [Outline](#outline)
-2. [Happiness Scores from 2015 to 2020](Happiness_Scores_from_2015_to_2020)
+2. [Data Cleaning](#data_cleaning)
+3. [Happiness Scores from 2015 to 2020](Happiness_Scores_from_2015_to_2020)
 
 # Outline
 The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
@@ -12,9 +13,14 @@ Our project aims to delve into the multifaceted factors that influence happiness
 
 _"What were the pivotal factors shaping societal well-being between 2015 and 2020, and how did these factors evolve in response to the unique challenges posed by the COVID-19 pandemic in 2020?"_
 
-
-
 We utilized a total of seven CSV files, each corresponding to a specific year spanning from 2015 to 2020, alongside an additional CSV file dedicated to capturing COVID-related outcomes specifically for the year 2020.
+
+# Data Cleaning
+We began by importing and processing each csv file for each year. The dataset contains information about happiness scores, GDP per capita, social support, healthy life expectancy, freedom, generosity, and corruption.
+
+We standardized column names across all CSV files, ensuring ease of access and reference for the team. Each cleaned CSV file was named according to the respective year.
+
+The 2020 file needed to be processed seperately to drop additional columns to enable it to follow the format of the previous files.
 
 # Happiness Scores from 2015 to 2020
 ## Global Visualisation
@@ -93,6 +99,8 @@ Generosity, measuring charitable behaviour and giving, exhibits a more mixed rel
 
 ## Final Thoughts
 In summary, this analysis provides valuable insights into societal well-being from 2015 to 2020. Variables such as GDP per Capita and social support consistently exert positive influences on happiness, while trust in government corruption and generosity reveal more nuanced relationships. The relationships between these variables will be explored in the remainder of this report.
+
+------------------------------------------------------------------------------------------------------
 
 # Conclusion and Final Thoughts - COVID Report
 
