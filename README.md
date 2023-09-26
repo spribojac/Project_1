@@ -3,12 +3,16 @@ Data Analytics Bootcamp: Project 1
 
 ## Table of Contents
 1. [Outline](#outline)
-2. 
+2. [Happiness Scores from 2015 to 2020](Happiness_Scores_from_2015_to_2020)
 
 # Outline
 The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
 
-Our project aims to delve into the multifaceted factors that influence happiness worldwide, considering economic, social, cultural, and population indicators. To achieve this, we will conduct an exploratory data analysis (EDA) using the data available on Kaggle 
+Our project aims to delve into the multifaceted factors that influence happiness worldwide, considering economic, social, cultural, and population indicators. To achieve this, we will conduct an exploratory data analysis (EDA) using the data available on Kaggle to answer the following question:
+
+_"What were the pivotal factors shaping societal well-being between 2015 and 2020, and how did these factors evolve in response to the unique challenges posed by the COVID-19 pandemic in 2020?"_
+
+
 
 We utilized a total of seven CSV files, each corresponding to a specific year spanning from 2015 to 2020, alongside an additional CSV file dedicated to capturing COVID-related outcomes specifically for the year 2020.
 
@@ -42,7 +46,53 @@ The presence of red and orange shades in the African continent, particularly in 
 South Asia generally scores lower than its Southeast Asian counterparts, while Eastern Asia maintains a steady average happiness score of around 5, which may reflect the influence of cultural and societal norms.
 In Europe, Western European countries consistently score high in happiness, thanks to robust economies and social safety nets. Central and Eastern European nations have made progress since the end of the Cold War, though some, like Ukraine, Bulgaria, and Georgia, still report scores averaging between 4 and 5.
 
+## Mean Happiness Scores from 2015 to 2020
+![mean_happiness_score_all_years](https://github.com/spribojac/Project_1/assets/65559564/07d193e2-739e-470d-a81e-fb26f29b9abd)
 
+### Mean Happiness Score with 95% confidence intervals
+![mean_change_Happiness Score](https://github.com/spribojac/Project_1/assets/65559564/e7796282-af9a-42b3-b8b3-68ba7bfa1ff0)
+
+The most notable trend of the happiness score over 2015 to 2020 is it’s stability. Looking at the line graph above the mean Happiness Score has remained relatively stable over the years, with slight fluctuations, mainly in the years 2019-2020 where a very small increase in the Happiness score can be seen. The mean Happiness Score across these six years hovers around 5.38. 
+
+The lowest observed Happiness Score during this period was 2.5669, emphasizing moments of profound unhappiness, while the highest score reached an impressive 7.8087, both in the year 2020, underscoring the capacity for exceptional well-being.
+
+This stability emphasizes the resilience of overall happiness and the need for a holistic approach to improving well-being that goes beyond single indicators.
+
+## Contribution of other variables to Happiness Score
+![combined_mean_line_plot_all_years](https://github.com/spribojac/Project_1/assets/65559564/1f32118f-a596-48aa-a7da-27821fd4a7d5)
+
+### Mean GDP per Capita with 95% confidence intervals
+![mean_change_GDP per Capita](https://github.com/spribojac/Project_1/assets/65559564/4aba91b8-7e22-4531-a490-33c1b98ee326)
+
+GDP per Capita, an indicator of economic prosperity, shows a consistent positive correlation with the Happiness Score. Countries with higher GDP per Capita generally report higher happiness levels. Over the six years, there is a general upward trend in GDP per Capita, indicating global economic growth. However, the rate of increase varies from year to year. High-ranking countries have GDP per Capita values typically above 1.3, while low-ranking countries often have values below 0.5, demonstrating the strong link between economic prosperity and happiness.
+
+### Mean Social Support with 95% confidence intervals
+![mean_change_Social Support](https://github.com/spribojac/Project_1/assets/65559564/cc076983-d0ab-4306-9c66-c91b0bfc0b8c)
+
+Social Support, which measures the presence of strong social networks, demonstrates a strong positive correlation with the Happiness Score. Nations with robust social support structures tend to have happier populations. While there are some minor fluctuations, the mean Social Support remains relatively consistent, suggesting the enduring importance of social networks in promoting well-being.
+
+### Mean Health/Life Expectancy with 95% confidence intervals
+![mean_change_Life Expectancy_Health](https://github.com/spribojac/Project_1/assets/65559564/aa72ee30-859c-40e8-ab50-6c93c7c6b4f8)
+
+Life Expectancy/Health, an indicator of overall health and access to healthcare, positively influences happiness. Countries with better health outcomes report higher happiness scores. Over the years, there is a slight overall increase in Life Expectancy/Health, which aligns with global improvements in healthcare access and life expectancy. High-ranking countries have life expectancies around 0.9 or higher, while low-ranking countries have life expectancies often well below 0.3, emphasizing the importance of health in happiness.
+
+### Mean Freedom with 95% confidence intervals
+![mean_change_Freedom](https://github.com/spribojac/Project_1/assets/65559564/30998fc0-f313-4fb0-8065-a90571faaf32)
+
+Freedom, representing personal liberties and civil rights, shows a consistent positive correlation with happiness. Nations with greater freedoms tend to have higher happiness scores. While there are minor fluctuations, the overall trend in Freedom remains relatively stable across the years. High-ranking countries exhibit high levels of freedom (e.g., Switzerland with 0.66557), while some low-ranking countries have lower freedom scores (e.g., Chad with 0.23501).
+
+### Mean Trust in Goverment with 95% confidence intervals
+![mean_change_Trust (government corruption)](https://github.com/spribojac/Project_1/assets/65559564/94bb2d0b-6603-42f1-b546-909c87de228b)
+
+Trust in Government, which reflects the perception of government integrity, negatively correlates with happiness. Countries with lower levels of trust in government tend to report lower happiness scores. Over the years, Trust in Government Corruption experiences slight fluctuations, reflecting shifts in public perception of government integrity. Trust in government varies significantly but is generally moderate to high in top-ranking countries (e.g., Switzerland with 0.41978) and often lower in low-ranking countries (e.g., Chad with 0.05269).
+
+### Mean Generosity with 95% confidence intervals
+![mean_change_Generosity](https://github.com/spribojac/Project_1/assets/65559564/1720c8c5-ba3e-4900-a291-8698f036e6c8)
+
+Generosity, measuring charitable behaviour and giving, exhibits a more mixed relationship with the Happiness Score. While there is often a positive correlation, it is weaker and less consistent than other factors. Generosity levels show minor variations over the years, suggesting that its impact on overall happiness may be less pronounced compared to factors like social support or health. Generosity levels vary but are generally moderate to high in both top and bottom countries (e.g., Switzerland with 0.29678, Chad with 0.18386), indicating a willingness to contribute to well-being.
+
+## Final Thoughts
+In summary, this analysis provides valuable insights into societal well-being from 2015 to 2020. Variables such as GDP per Capita and social support consistently exert positive influences on happiness, while trust in government corruption and generosity reveal more nuanced relationships. The relationships between these variables will be explored in the remainder of this report.
 
 # Conclusion and Final Thoughts - COVID Report
 
