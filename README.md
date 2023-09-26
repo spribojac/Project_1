@@ -1,6 +1,48 @@
 # Project_1
 Data Analytics Bootcamp: Project 1
 
+## Table of Contents
+1. [Outline](#outline)
+2. 
+
+# Outline
+The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
+
+Our project aims to delve into the multifaceted factors that influence happiness worldwide, considering economic, social, cultural, and population indicators. To achieve this, we will conduct an exploratory data analysis (EDA) using the data available on Kaggle 
+
+We utilized a total of seven CSV files, each corresponding to a specific year spanning from 2015 to 2020, alongside an additional CSV file dedicated to capturing COVID-related outcomes specifically for the year 2020.
+
+# Happiness Scores from 2015 to 2020
+## Global Visualisation
+
+### Global Happiness in 2015
+![globe_happiness_score_map_2015](https://github.com/spribojac/Project_1/assets/65559564/0403d28a-341f-4836-9104-e6421eece197)
+
+### Global Happiness in 2016
+![globe_happiness_score_map_2016](https://github.com/spribojac/Project_1/assets/65559564/29af777c-dc7f-4490-9838-f2210000974d)
+
+### Global Happiness in 2017
+![globe_happiness_score_map_2017](https://github.com/spribojac/Project_1/assets/65559564/83877c6e-6a7a-4398-987a-f3568f57164e)
+
+### Global Happiness in 2018
+![globe_happiness_score_map_2018](https://github.com/spribojac/Project_1/assets/65559564/bce6619f-160e-439a-a463-186b11f5e45d)
+
+### Global Happiness in 2019
+![globe_happiness_score_map_2019](https://github.com/spribojac/Project_1/assets/65559564/351ce401-6416-46d0-866c-adbca3702900)
+
+### Global Happiness in 2020
+![globe_happiness_score_map_2020](https://github.com/spribojac/Project_1/assets/65559564/0a6c0557-c4d9-4fbb-bac5-222fd707c7f0)
+
+Analyzing happiness scores regionally and across continents over the years reveals interesting trends. The color spectrum, ranging from green (indicating higher happiness) to red (representing lower happiness), highlights notable patterns. 
+
+Consistently high happiness scores are observed in North America, South America, Australia, and Europe. These regions often have stable economies, strong social support systems, and high levels of personal freedom, all of which are associated with higher levels of happiness.
+
+The presence of red and orange shades in the African continent, particularly in the central belt, aligns with the challenges many African countries face, including issues related to political instability, poverty, and limited access to healthcare and education. Additionally, conflict zones like Syria, Afghanistan, and Iraq have experienced significant declines in happiness due to the impact of wars and violence on the well-being of their populations.
+
+South Asia generally scores lower than its Southeast Asian counterparts, while Eastern Asia maintains a steady average happiness score of around 5, which may reflect the influence of cultural and societal norms.
+In Europe, Western European countries consistently score high in happiness, thanks to robust economies and social safety nets. Central and Eastern European nations have made progress since the end of the Cold War, though some, like Ukraine, Bulgaria, and Georgia, still report scores averaging between 4 and 5.
+
+
 
 # Conclusion and Final Thoughts - COVID Report
 
@@ -10,7 +52,7 @@ In this analysis, we explored the intricate relationship between various socio-e
 
 We found a significant association between a country's GDP and its reported happiness. Countries with higher GDP tend to have a more favorable happiness score.
 
-## GDP AND SOCIAL SUPPORT:
+## GDP and Social Support:
 
 WE found that there is no significant association between the GDP and Social Support .Countries with higher GDP tend to have a less Social Support.
 
