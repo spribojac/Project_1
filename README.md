@@ -5,10 +5,11 @@ Data Analytics Bootcamp: Project 1
 1. [Outline](#outline)
 2. [Data Cleaning](#data_cleaning)
 3. [How has the Happiness Score changed over the years?](#how_has_the_happiness_score_changed_over_the_years)
-4. [The effect of GDP per Capita]
-5. [The effect of Social Support, Health/Life Expectancy, and Generosity]
-6. [Limitations](#limitations)
-7. [Further areas of study](#further_areas_of_study)
+4. [The effect of GDP per Capita](#the_effect_of_GDP_per_Capita)
+5. [The effect of Social Support, Health/Life Expectancy, and Generosity](#the_effect_of_social_support_,_health_/_life_expectancy)
+6. [COVID-19 and the effect on happiness](#covid_-_19_and_the_effect_on_happiness)
+7. [Limitations](#limitations)
+8. [Further areas of study](#further_areas_of_study)
 
 # Outline
 The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
@@ -239,6 +240,8 @@ In summary, our analysis highlights robust positive correlations between Happine
 These findings suggest that countries with higher levels of economic prosperity, social support systems, and healthier life expectancies tend to score higher on the Happiness Index. 
 However, it's essential to acknowledge that further research is necessary to comprehensively grasp the underlying factors driving these correlations.
 
+------------------------------------------------------------------------------------------------------------------------------------------
+# COVID-19 and the effect on happiness
 ------------------------------------------------------------------------------------------------------------------------------------------
 ## Key findings
 **GDP and Happiness:**
