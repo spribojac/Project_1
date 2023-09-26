@@ -8,8 +8,10 @@ Data Analytics Bootcamp: Project 1
 4. [The effect of GDP per Capita](#the_effect_of_GDP_per_Capita)
 5. [The effect of Social Support, Health/Life Expectancy, and Generosity](#the_effect_of_social_support_,_health_/_life_expectancy)
 6. [COVID-19 and the effect on happiness](#covid_-_19_and_the_effect_on_happiness)
-7. [Limitations](#limitations)
-8. [Further areas of study](#further_areas_of_study)
+7. [Conclusion](#conclusion)
+9. [Limitations](#limitations)
+10. [Further areas of study](#further_areas_of_study)
+11. [Credits](#credits)
 
 # Outline
 The World Happiness Report, a publication by the Sustainable Development Solutions Network, driven by Gallup World Poll data, underscores the growing global demand for prioritizing happiness and well-being as key governmental benchmarks. This report explores current global happiness levels and delves into how the science of happiness elucidates variations in personal and national happiness.
@@ -30,27 +32,45 @@ The 2020 file needed to be processed seperately to drop additional columns to en
 -------------------------------------------------------------------------------------------------------------------------------------------------
 # How has the Happiness Score changed over the years?
 -------------------------------------------------------------------------------------------------------------------------------------------------
-## Global Visualisation
+In this part of the report we explore global changes in the happiness score over the years 2015-2020 and the contribution of each factor to the happiness score.
 
-### Global Happiness in 2015 (Fig 1)
+## Key Findings
+**Stability in Happiness Scores:** 
+The most notable trend in Happiness Scores from 2015 to 2020 is their stability, hovering around an average score of approximately 5.38, with slight fluctuations. 
+
+**Positive Correlation with GDP per Capita:** 
+GDP per Capita, as an indicator of economic prosperity, consistently shows a strong positive correlation with Happiness Scores. Countries with higher GDP per Capita tend to report higher levels of happiness. 
+
+**Strong Influence of Social Support:**
+Social Support, representing the presence of strong social networks, demonstrates a robust positive correlation with Happiness Scores. Nations with robust social support systems tend to have happier populations. 
+
+**Health and Happiness:** 
+Life Expectancy/Health, an indicator of overall health and access to healthcare, positively influences happiness. Countries with better health outcomes report higher happiness scores. 
+
+**Freedom's Impact:** 
+Freedom, representing personal liberties and civil rights, shows a consistent positive correlation with happiness. Countries with greater freedoms tend to have higher happiness scores. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Analyzing happiness scores regionally and across continents over the years reveals interesting trends. The color spectrum, ranging from green (indicating higher happiness) to red (representing lower happiness), highlights notable patterns.
+
+## Global Happiness in 2015 (Fig 1)
 ![globe_happiness_score_map_2015](https://github.com/spribojac/Project_1/assets/65559564/0403d28a-341f-4836-9104-e6421eece197)
 
-### Global Happiness in 2016 (Fig 2)
+## Global Happiness in 2016 (Fig 2)
 ![globe_happiness_score_map_2016](https://github.com/spribojac/Project_1/assets/65559564/29af777c-dc7f-4490-9838-f2210000974d)
 
-### Global Happiness in 2017 (Fig 3)
+## Global Happiness in 2017 (Fig 3)
 ![globe_happiness_score_map_2017](https://github.com/spribojac/Project_1/assets/65559564/83877c6e-6a7a-4398-987a-f3568f57164e)
 
-### Global Happiness in 2018 (Fig 4)
+## Global Happiness in 2018 (Fig 4)
 ![globe_happiness_score_map_2018](https://github.com/spribojac/Project_1/assets/65559564/bce6619f-160e-439a-a463-186b11f5e45d)
 
-### Global Happiness in 2019 (Fig 5)
+## Global Happiness in 2019 (Fig 5)
 ![globe_happiness_score_map_2019](https://github.com/spribojac/Project_1/assets/65559564/351ce401-6416-46d0-866c-adbca3702900)
 
-### Global Happiness in 2020 (Fig 6)
+## Global Happiness in 2020 (Fig 6)
 ![globe_happiness_score_map_2020](https://github.com/spribojac/Project_1/assets/65559564/0a6c0557-c4d9-4fbb-bac5-222fd707c7f0)
-
-Analyzing happiness scores regionally and across continents over the years reveals interesting trends. The color spectrum, ranging from green (indicating higher happiness) to red (representing lower happiness), highlights notable patterns. 
 
 Consistently high happiness scores are observed in North America, South America, Australia, and Europe. These regions often have stable economies, strong social support systems, and high levels of personal freedom, all of which are associated with higher levels of happiness.
 
@@ -62,7 +82,7 @@ In Europe, Western European countries consistently score high in happiness, than
 ## Mean Happiness Scores from 2015 to 2020 (Fig 7)
 ![mean_happiness_score_all_years](https://github.com/spribojac/Project_1/assets/65559564/07d193e2-739e-470d-a81e-fb26f29b9abd)
 
-### Mean Happiness Score with 95% confidence intervals (Fig 8)
+## Mean Happiness Score with 95% confidence intervals (Fig 8)
 ![mean_change_Happiness Score](https://github.com/spribojac/Project_1/assets/65559564/e7796282-af9a-42b3-b8b3-68ba7bfa1ff0)
 
 The most notable trend of the happiness score over 2015 to 2020 is it’s stability, hovering around 5.38m, with slight fluctuations, mainly in the years 2019-2020 where a very small increase in the Happiness score can be seen (Fig 7). . The confidence intervals shown in Fig 8 suggest that the variability in the mean happiness scores was not significant.
@@ -109,58 +129,44 @@ Generosity, measuring charitable behaviour and giving, exhibits a more mixed rel
 ------------------------------------------------------------------------------------------------------
 ## How does GDP per Capita effect each variable in the World Happiness Report?
 
+Here, we explore the effects of GDP per capita on the happiness score and it's impact on the other variables associated with happiness.
+
+### Key Findings
+**Strong Positive Correlation with Happiness:** 
+The analysis reveals a robust positive correlation (correlation coefficient of 0.79) between GDP per capita and the Happiness score. 
+
+**Variability in Happiness Despite Low GDP:**
+Despite having low GDP per capita, there is significant variability in the "Happiness Score" among countries in the bottom 10. 
+
+**Consistency in Low GDP in Bottom 10 Countries:**
+The analysis shows that the countries in the bottom 10 consistently have very low GDP per capita across multiple years. 
+
+**Social Support and Health Factors:** 
+Some low GDP per capita countries exhibit relatively higher scores in "Social Support" and "Life Expectancy/Health." 
+
+**Multifaceted Nature of Happiness:** 
+The heat map analysis reveals that while GDP per capita has a positive correlation with most attributes in the World Happiness Report, there are exceptions, such as the weak correlation with generosity and government corruption. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Top 10 GDP per Capita Countries
 ![Alt text](https://github.com/spribojac/Project_1/blob/main/images/TOP_10_GDP.png)
 
-Trends in Mean GDP per Capita: The mean GDP per capita for the top 10 
-countries seems to fluctuate over the years. It increased from 2015 to 
-2016, then had a slight decrease in 2017, increased again in 2018, 
-remained relatively stable in 2019, and decreased in 2020. These changes
-can indicate economic growth or contraction in these countries over time.
-Standard Deviation: The standard deviation represents the dispersion of 
-data points around the mean. A higher standard deviation suggests 
-greater variability in GDP per capita among the top 10 countries. In this 
-case, the standard deviation is relatively low for most years, indicating 
-that the GDP per capita values are clustered around the mean, indicating 
-relatively stable and similar economic conditions among these countries
-Minimum and Maximum Values: The minimum and maximum values show 
-the range of GDP per capita in the top 10 countries for each year. These 
-values can highlight the most and least prosperous countries in the top 
-10. For example, in 2018, there is a relatively high maximum value, 
-indicating that one or more countries in the top 10 had a significantly 
-higher GDP per capita compared to others.
+**Trends in Mean GDP per Capita:** The mean GDP per capita for the top 10 countries seems to fluctuate over the years. It increased from 2015 to 2016, then had a slight decrease in 2017, increased again in 2018, remained relatively stable in 2019, and decreased in 2020. These changes can indicate economic growth or contraction in these countries over time. Standard Deviation: The standard deviation represents the dispersion of data points around the mean. A higher standard deviation suggests greater variability in GDP per capita among the top 10 countries. In this case, the standard deviation is relatively low for most years, indicating 
+that the GDP per capita values are clustered around the mean, indicating relatively stable and similar economic conditions among these countries
+
+**Minimum and Maximum Values:** The minimum and maximum values show the range of GDP per capita in the top 10 countries for each year. These values can highlight the most and least prosperous countries in the top 10. For example, in 2018, there is a relatively high maximum value, indicating that one or more countries in the top 10 had a significantly higher GDP per capita compared to others.
 
 ### Bottom 10 GDP per Capita Countries 
 ![Alt text](https://github.com/spribojac/Project_1/blob/main/images/Bottom_10_GDP.png)
 
-Consistency in Low GDP: It's evident that the countries in the bottom 10 
-consistently have very low GDP per capita across all years. This suggests 
-ongoing economic challenges in these countries, which could include 
-poverty, limited access to resources, and reduced standards of living.
-Variability in Happiness Score: Despite having low GDP per capita, there is
-some variability in the "Happiness Score" among these countries. This 
-indicates that factors other than economic wealth, such as social support, 
-life expectancy, freedom, trust in government, and generosity, play a 
-significant role in determining the overall well-being and happiness of a 
-population.
+**Consistency in Low GDP:** It's evident that the countries in the bottom 10 consistently have very low GDP per capita across all years. This suggests ongoing economic challenges in these countries, which could include poverty, limited access to resources, and reduced standards of living. Variability in Happiness Score: Despite having low GDP per capita, there issome variability in the "Happiness Score" among these countries. This indicates that factors other than economic wealth, such as social support, life expectancy, freedom, trust in government, and generosity, play a significant role in determining the overall well-being and happiness of a population.
 
-Persistent Issues: Some countries, such as Congo (Kinshasa), Burundi, and
-Niger, appear in the bottom 10 consistently over multiple years. This 
-suggests that these countries face ongoing challenges in improving their 
-economic conditions and overall well-being.
-Social Support and Health: It's worth noting that in some years, despite 
-low GDP per capita, certain countries have relatively higher scores in 
-"Social Support" and "Life Expectancy/Health." This indicates that social 
-and health-related factors may have a more significant impact on 
-happiness and well-being in these contexts.
+**Persistent Issues:** Some countries, such as Congo (Kinshasa), Burundi, andNiger, appear in the bottom 10 consistently over multiple years. This suggests that these countries face ongoing challenges in improving their economic conditions and overall well-being. Social Support and Health: It's worth noting that in some years, despite low GDP per capita, certain countries have relatively higher scores in "Social Support" and "Life Expectancy/Health." This indicates that social and health-related factors may have a more significant impact on happiness and well-being in these contexts.
 
-Trust and Corruption: Trust in government and levels of government 
-corruption (measured as "Trust (government corruption)") also vary 
-among these countries. Some countries have very low levels of trust in 
-government, which can affect their overall happiness and stability.
-Generosity: "Generosity" is another variable that varies among these 
-countries. This suggests differences in social and cultural norms related to
-generosity and community support
+**Trust and Corruption:** Trust in government and levels of government corruption (measured as "Trust (government corruption)") also vary among these countries. Some countries have very low levels of trust in government, which can affect their overall happiness and stability.
+
+**Generosity:** "Generosity" is another variable that varies among these countries. This suggests differences in social and cultural norms related to generosity and community support
 
 ### Scatter Plots of Capita vs Happiness/Attributes 
 
@@ -170,35 +176,39 @@ generosity and community support
 ![GDP vs Life Expectancy](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_LIFE%20EXPECTANCY.png)
 ![GDP vs Social](https://github.com/spribojac/Project_1/blob/main/images/GDP_VS_SOCIAL.png)
 
-These scatter plots visually depict the associations between GDP and both
-happiness and various attributes. Notably, the correlation between GDP 
-and the Happiness score was a robust 0.79, indicating a strong and 
-positive linear relationship between these two variables. Similarly, positive
-correlations were observed between GDP and other attributes such as 
-social support, life expectancy, and freedom. However, it's worth noting 
-that the correlation between generosity and GDP was notably weak, 
-implying a limited connection between these two variables.
+These scatter plots visually depict the associations between GDP and bothhappiness and various attributes. Notably, the correlation between GDP and the Happiness score was a robust 0.79, indicating a strong and positive linear relationship between these two variables. Similarly, positive correlations were observed between GDP and other attributes such as social support, life expectancy, and freedom. However, it's worth noting 
+that the correlation between generosity and GDP was notably weak, implying a limited connection between these two variables.
 
 ### Box plot and Heat Map Analysis 
 
 ![Heat Map](https://github.com/spribojac/Project_1/blob/main/images/Heat_map.png)
 ![Box Plot](https://github.com/spribojac/Project_1/blob/main/images/boxplot.png)
 
-The box plots vividly demonstrate a notable disparity in Happiness scores,
-with lower-ranked GDP countries exhibiting significantly greater variance. 
-In contrast, countries with higher GDP per capita displayed considerably 
-less variance, signifying greater stability. These findings underscore the 
-substantial variability in happiness scores among countries with lower per 
-capita GDP, juxtaposed with the comparatively stable happiness levels 
-observed in higher GDP countries.The heat map further consolidates the 
-prior findings and shows GDP per capita has positive correlation with 
-majority of the attributes, excluding generosity and government 
-corruption.
+The box plots vividly demonstrate a notable disparity in Happiness scores, with lower-ranked GDP countries exhibiting significantly greater variance. In contrast, countries with higher GDP per capita displayed considerably less variance, signifying greater stability. These findings underscore the substantial variability in happiness scores among countries with lower per capita GDP, juxtaposed with the comparatively stable happiness levels observed in higher GDP countries.The heat map further consolidates the prior findings and shows GDP per capita has positive correlation with majority of the attributes, excluding generosity and government corruption.
 
 ------------------------------------------------------------------------------------------------------
 # The effect of Social Support, Health/Life Expectancy, and Generosity
 ------------------------------------------------------------------------------------------------------
 ## How do socio-cultural factors influence the various variables assessed in the World Happiness Report?
+
+In this section of the analysis, we take a closer look at the key socio-cultural components that shape happiness and well-being across regions and countries. We investigate how these components interplay and influence the overall Happiness Scores reported in the World Happiness Report from 2015 to 2020.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Findings
+**Consistent Regional Patterns:** 
+The analysis consistently identifies North America, ANZ, and Western Europe as the top-performing regions in terms of Happiness Scores over the years.
+
+**Crucial Role of Social Support** 
+Social support is a critical factor positively correlated with Happiness Scores.
+
+**Health and Happiness:** 
+There is a strong positive correlation between life expectancy/health and Happiness Scores. 
+
+**Generosity**
+Shows weak or negligible correlations with other factors and Happiness Scores.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In this analysis, we investigated the trends in Happiness Scores among various regions and countries from 2015 to 2020. 
 Our findings indicate that there is a consistent pattern with minor fluctuations over the years. 
@@ -249,6 +259,8 @@ The year 2020 brought unprecedented challenges to the world, primarily due to th
 
 We performed an in-depth analysis of COVID-19 death data alongside happiness report data from different countries. Our goal is to explore potential relationships and insights between the COVID-19 pandemic's impact on countries and their citizens' reported happiness.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Key findings
 **GDP and Happiness:**
 We found a significant association between a country's GDP and its reported happiness. Countries with higher GDP tend to have a more favorable happiness score.
@@ -268,9 +280,7 @@ Although not directly analyzed in this dataset, life expectancy is a vital indic
 **Social Support and COVID-19:**
 Strong social support seems to correlate with better compliance with preventive measures, potentially contributing to lower COVID-19 transmission rates.
 
-While GDP, corruption perception, life expectancy, and social support are vital factors, managing a pandemic like COVID-19 is a multidimensional challenge. It requires a holistic approach, considering healthcare infrastructure, public health policies, education, cultural factors, and more.
-
-Understanding these relationships is crucial for policymakers and public health experts in crafting effective strategies to combat the current pandemic and future health crises. By addressing these factors, we can work towards a more resilient and healthier global community.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### COVID-19 Death Dataset
 
@@ -333,7 +343,34 @@ By analyzing these aspects, we gain valuable insights into the complexities of m
 
 This analysis offers a comprehensive look at the interplay between the COVID-19 pandemic and happiness levels across different countries. By visualizing COVID-19 death progression, identifying critical periods, and exploring correlations with various factors, we aim to contribute to a better understanding of the pandemic's broader impact on societies.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Conclusion
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+During the period from 2015 to 2020, several pivotal factors played a significant role in shaping societal well-being across nations. These factors provide insights into the intricate web of elements that influence the quality of life within societies. Additionally, the emergence of the COVID-19 pandemic in 2020 brought forth new challenges, underscoring the importance of these factors in times of crisis.
+
+Economic Prosperity Matters:
+Economic prosperity, as measured by GDP per Capita, stood out as a substantial driver of well-being during the years leading up to 2020. Countries with higher GDPs often reported higher happiness scores. However, the relationship between economic wealth and happiness is just one thread in the complex tapestry of well-being.
+
+Social Support Complexity:
+Contrary to expectations, GDP's influence did not uniformly extend to social support levels. Societies with robust social support systems didn't always correlate with higher GDPs, emphasizing the nuanced nature of well-being. The strength of interpersonal bonds and social connections within communities emerged as equally crucial elements.
+
+Generosity's Nuance:
+Generosity, traditionally celebrated as a commendable trait, did not exhibit a strong correlation with a country's overall happiness score. The link between individual acts of kindness and collective well-being proved to be less straightforward than anticipated, highlighting the multifaceted nature of happiness.
+
+Governance and Trust:
+The perception of government corruption emerged as a significant influencer of happiness. Countries with lower corruption perception often displayed a more positive outlook on well-being. Transparent, accountable governance laid a solid foundation for societal contentment.
+
+Health and Pandemics:
+While not directly examined within the dataset, life expectancy emerged as a fundamental indicator of health and well-being. It likely played a pivotal role in shaping nations' responses to health crises such as the COVID-19 pandemic, underlining the importance of healthcare access and life expectancy in a country's resilience.
+
+Social Support in Crises:
+The advent of the COVID-19 pandemic in 2020 brought forth unique challenges. Strong social support systems seemed to correlate with more effective adherence to preventive measures and lower transmission rates. Societal bonds and support networks played a vital role in navigating the crisis, highlighting their significance in times of uncertainty.
+
+In conclusion, the factors shaping societal well-being from 2015 to 2020 form a complex tapestry encompassing economic prosperity, social dynamics, governance, health, and societal bonds. The arrival of the COVID-19 pandemic in 2020 underscored the critical role of these factors in preserving well-being, particularly during times of adversity. Understanding this intricate interplay of elements is crucial as we endeavor to enhance global well-being and nurture happier, more resilient societies worldwide.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Limitations of the study
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The World Happiness Report data, like any dataset, has its limitations. Some of the key limitations include:
 
 **Subjectivity:** Happiness is a highly subjective and culturally influenced concept. Respondents' interpretations of happiness can vary significantly across cultures and individuals, making it challenging to standardize measurements.
@@ -356,10 +393,16 @@ The World Happiness Report data, like any dataset, has its limitations. Some of 
 
 **Sample Size and Representativeness:** The representativeness of the survey samples and the sample sizes can vary across countries, which may affect the reliability and generalizability of the results.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Further areas of study
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Global Events and Happiness: Analyze how major global events, such as pandemics, economic crises, or natural disasters, impact happiness and resilience. For example, wars or including more datasets in the COVID-19 years.
 2. Cultural Variations in Happiness: Investigate how cultural norms and values influence the perception and pursuit of happiness across different societies.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Credits
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Thanks to Sophie, Nev, Arfan and Shavez for their work on this project! We obtained our datasets from Kaggle and sought inspiration and advice from the UOB Data Analytics Bootcamp.
 
 
 
