@@ -243,6 +243,12 @@ However, it's essential to acknowledge that further research is necessary to com
 ------------------------------------------------------------------------------------------------------------------------------------------
 # COVID-19 and the effect on happiness
 ------------------------------------------------------------------------------------------------------------------------------------------
+## How did these factors evolve in response to the unique challenges posed by the COVID-19 pandemic in 2020?
+
+The year 2020 brought unprecedented challenges to the world, primarily due to the COVID-19 pandemic. While the pandemic itself had a direct impact on public health, it also had indirect consequences on various aspects of society, including people's overall well-being and happiness. This analysis aims to shed light on the relationship between the severity of COVID-19 outbreaks in different countries and their respective happiness levels.
+
+We performed an in-depth analysis of COVID-19 death data alongside happiness report data from different countries. Our goal is to explore potential relationships and insights between the COVID-19 pandemic's impact on countries and their citizens' reported happiness.
+
 ## Key findings
 **GDP and Happiness:**
 We found a significant association between a country's GDP and its reported happiness. Countries with higher GDP tend to have a more favorable happiness score.
@@ -260,55 +266,11 @@ Countries with a lower perception of government corruption were likely to have a
 Although not directly analyzed in this dataset, life expectancy is a vital indicator of overall health and well-being, likely affecting how countries handle the pandemic.
 
 **Social Support and COVID-19:**
-
 Strong social support seems to correlate with better compliance with preventive measures, potentially contributing to lower COVID-19 transmission rates.
 
 While GDP, corruption perception, life expectancy, and social support are vital factors, managing a pandemic like COVID-19 is a multidimensional challenge. It requires a holistic approach, considering healthcare infrastructure, public health policies, education, cultural factors, and more.
 
 Understanding these relationships is crucial for policymakers and public health experts in crafting effective strategies to combat the current pandemic and future health crises. By addressing these factors, we can work towards a more resilient and healthier global community.
-
----
-
-## Graphs Overview:
-
-- **Scatter Plot: GDP vs. Happiness**
-  - Showed the positive correlation between a country's GDP and reported happiness.
-
-- **Box Plot: Happiness Distribution by Corruption Perception**
-  - Illustrated the relationship between corruption perception and happiness scores.
-
-- **Heatmap: Correlation Matrix**
-  - Displayed the correlation coefficients among the variables in the dataset.
-
-- **Geo Plots: Healthy Life Expectancy and COVID-19 Cases**
-  - Explored the geographical representation of life expectancy and COVID-19 cases.
-
----
-
-By analyzing these aspects, we gain valuable insights into the complexities of managing a global health crisis like COVID-19 and can develop more informed strategies for a healthier and happier society.
-
-##########################################################################################################################################################################################################
-
-# COVID19 Death / Happiness Report Data Analysis
-
-In this project, we perform an in-depth analysis of COVID-19 death data alongside happiness report data from different countries. Our goal is to explore potential relationships and insights between the COVID-19 pandemic's impact on countries and their citizens' reported happiness.
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Data Import](#data-import)
-3. [Data Visualization](#data-visualization)
-4. [Correlation Analysis](#correlation-analysis)
-5. [Conclusion](#conclusion)
-
----
-
-## Introduction
-
-The year 2020 brought unprecedented challenges to the world, primarily due to the COVID-19 pandemic. While the pandemic itself had a direct impact on public health, it also had indirect consequences on various aspects of society, including people's overall well-being and happiness. This analysis aims to shed light on the relationship between the severity of COVID-19 outbreaks in different countries and their respective happiness levels.
-
----
-
-## Data Import 
 
 ### COVID-19 Death Dataset
 
@@ -351,13 +313,27 @@ The correlation values provide insights into how these factors might influence t
 
 ---
 
-## Conclusion
+## Graphs Overview:
+
+- **Scatter Plot: GDP vs. Happiness**
+  - Showed the positive correlation between a country's GDP and reported happiness.
+
+- **Box Plot: Happiness Distribution by Corruption Perception**
+  - Illustrated the relationship between corruption perception and happiness scores.
+
+- **Heatmap: Correlation Matrix**
+  - Displayed the correlation coefficients among the variables in the dataset.
+
+- **Geo Plots: Healthy Life Expectancy and COVID-19 Cases**
+  - Explored the geographical representation of life expectancy and COVID-19 cases.
+
+---
+
+By analyzing these aspects, we gain valuable insights into the complexities of managing a global health crisis like COVID-19 and can develop more informed strategies for a healthier and happier society.
 
 This analysis offers a comprehensive look at the interplay between the COVID-19 pandemic and happiness levels across different countries. By visualizing COVID-19 death progression, identifying critical periods, and exploring correlations with various factors, we aim to contribute to a better understanding of the pandemic's broader impact on societies.
 
-Feel free to further explore the data and analysis in the accompanying Jupyter Notebook.
-
-## Limitations of the study
+# Limitations of the study
 The World Happiness Report data, like any dataset, has its limitations. Some of the key limitations include:
 
 **Subjectivity:** Happiness is a highly subjective and culturally influenced concept. Respondents' interpretations of happiness can vary significantly across cultures and individuals, making it challenging to standardize measurements.
@@ -380,7 +356,7 @@ The World Happiness Report data, like any dataset, has its limitations. Some of 
 
 **Sample Size and Representativeness:** The representativeness of the survey samples and the sample sizes can vary across countries, which may affect the reliability and generalizability of the results.
 
-## Further areas of study
+# Further areas of study
 1. Global Events and Happiness: Analyze how major global events, such as pandemics, economic crises, or natural disasters, impact happiness and resilience. For example, wars or including more datasets in the COVID-19 years.
 2. Cultural Variations in Happiness: Investigate how cultural norms and values influence the perception and pursuit of happiness across different societies.
 
